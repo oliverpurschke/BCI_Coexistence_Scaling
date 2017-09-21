@@ -1775,7 +1775,7 @@ dev.off()
 ```
 
 ``` r
-include_graphics("Scales.t_value.inter.PCA1-3.coef.scale.pdf", dpi = NA)
+knitr::include_graphics("Scales.t_value.inter.PCA1-3.coef.scale.pdf", dpi = NA)
 ```
 
 ![](Scales.t_value.inter.PCA1-3.coef.scale.pdf)
