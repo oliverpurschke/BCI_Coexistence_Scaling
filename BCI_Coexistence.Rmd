@@ -1738,7 +1738,7 @@ plot(div)
 dev.off()
 ```
 
-```{r, echo = T, eval = F, quiet = T}
+```{r, echo = T, eval = T, quiet = T}
 include_graphics("Scales.t_value.inter.PCA1-3.coef.scale.pdf", dpi = NA)
 
 ```
