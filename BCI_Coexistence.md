@@ -1772,7 +1772,9 @@ pdf(file = "Scales.t_value.inter.PCA1-3.coef.scale.pdf",width = 4.2, height = 4,
 paper = "special", onefile = FALSE, horizontal = FALSE, pointsize=12)
 plot(div)
 dev.off()
+```
 
+``` r
 include_graphics("Scales.t_value.inter.PCA1-3.coef.scale.pdf", dpi = NA)
 ```
 

@@ -1545,9 +1545,8 @@ remove top and right axes
 <span class="co"># postscript(file = &quot;BCI.DivergenceSize.eps&quot;,width = 6, height = 6.5,</span>
 paper =<span class="st"> &quot;special&quot;</span>, onefile =<span class="st"> </span><span class="ot">FALSE</span>, horizontal =<span class="st"> </span><span class="ot">FALSE</span>, pointsize=<span class="dv">12</span><span class="er">)</span>
 <span class="kw">plot</span>(div)
-<span class="kw">dev.off</span>()
-
-<span class="kw">include_graphics</span>(<span class="st">&quot;Scales.t_value.inter.PCA1-3.coef.scale.pdf&quot;</span>, <span class="dt">dpi =</span> <span class="ot">NA</span>)</code></pre></div>
+<span class="kw">dev.off</span>()</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">include_graphics</span>(<span class="st">&quot;Scales.t_value.inter.PCA1-3.coef.scale.pdf&quot;</span>, <span class="dt">dpi =</span> <span class="ot">NA</span>)</code></pre></div>
 <h1 id="r-settings"><code>R</code>-settings</h1>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">sessionInfo</span>()</code></pre></div>
 <pre><code>## R version 3.4.1 (2017-06-30)
