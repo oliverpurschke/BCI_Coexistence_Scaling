@@ -1,5 +1,3 @@
-# BCI_Coexistence_Scaling
-
 Load required packages
 ======================
 
